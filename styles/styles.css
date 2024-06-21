@@ -34,7 +34,7 @@ aside {
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eeeeee;
-    color:333;
+    color: #333;
     text-align: center;
 }
 
@@ -56,5 +56,5 @@ footer {
     margin-top: 15px;
     border-top: 1px solid#000;
     text-align: center;
-    
+
 }
