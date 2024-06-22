@@ -8,6 +8,23 @@ body {
 }
 
 
+  :root {
+    --primary-color: #8ECAE6;
+    --secondary-color: #194358;
+    --accent1-color: #023047;
+    --accent2-color: #E46D20;
+
+    --heading-font: 'Bebas Neue',sans-serif;
+    --paragraph-font: 'Kameron', serif;
+    --color-callout-example-font:'Orbitron', sans-serif;
+
+    --nav-background-color:  #8ECAE6;
+    --nav-link-color: #194358;
+    --nav-hover-link-color:  #023047;
+    --nav-hover-background-color:  #E46D20;
+  }
+
+
 
     body {
         font-family: var(--paragraph-font);
