@@ -1,0 +1,14 @@
+<li>primary-color "sky blue" #8ECAE6</li>
+                <li>secondary-color "Charcoal" #194358</li>
+                <li>accent1-color "prussian blue" #023047</li>
+                <li>accent2-color "Spanish orange" #E46D20 </li>
+              </ul>  
+
+            <p>Pallette URL: <a href= "https://coolors.co/8ecae6-194358-023047-e46d20" target="_blank">https://coolors.co/8ecae6-194358-023047-e46d20</a></p>
+            <h3>Typography</h3>
+            <h4>Headings Example Font</h4>
+            <p>font-family: "Bebas Neue", sans-serif;</p>
+            <h4>Normal Text/Paragraph Example Font</h4>
+            <p> font-family: "Kameron", serif;</p>
+            <h4>Colored Callout Example Font</h4>
+            <p>font-family: "Orbitron", sans-serif; </p>
