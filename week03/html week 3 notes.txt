@@ -1,0 +1,72 @@
+ctrl / for a comment
+
+--References--
+
+-------------Absolute URL - Complete url (protocol, domain, and path) -------
+	Example:
+<a href="https://www.byui.edu/about/" target="_blank">BYU-Idaho</a>
+	The target attribute allows you to specify to open up the link in a new tab with the _blank value
+
+Relative References - URL referenced inside the current page. Must have knowledge of the file and folder structure of site. 
+
+
+
+-------------Image File in the image folder references-----------
+
+We use ../ syntax to let the browser know that we want to go up one directory and out of the products folder. In this case we are going up to the assets folder and targeting an image inside of the images folder.
+
+<img src="../assets/images/cele2935.webp">
+
+	File in the Same Folder Reference
+<a href="product.html">Wiget</a>
+
+	File in the Parent Folder Reference
+<a href="../products.html">New Products</a>
+
+	File in the Sibling Folder Reference
+
+This reference will automatically load the default file in the services directory, which is index.html. We do not need to reference index.html files, just their directories.
+
+<a href="../services">Services</a>
+
+Element on the Same Page
+<a href="#section-six">Section Six of the Report</a>
+
+
+
+-----------CSS Selectors: Type, Universal, Class and ID------------
+
+CSS Selectors allow us to target specific elements on the page to apply a CSS rule which rule is a collection of CSS declarations.
+
+CSS Selector Types
+Selector Type	Example	CSS Rule Application
+Universal	* { ... }	Applies to all elements
+Type	h1 { ... }	Applies to all <h1> elements
+Class	.red { ... }	Applies to all elements with the "red" class value
+ID	#red { ... }	Applies to the one element with the "red" id value
+
+
+A class attribute can be applied to many elements on a document. More than one class can be applied to a single element. The class can be selected by CSS class selectors using period (.) notation.
+	Example:
+
+/* All elements with class="spacious" */
+.spacious {
+  margin: 2em;
+}
+
+/* All <li> elements with class="spacious" */
+li.spacious {
+  margin: 2em;
+}
+
+/* All <li> elements with a class list that includes both "spacious" and "elegant" */
+/* For example, class="elegant retro spacious" */
+li.spacious.elegant {
+  margin: 2em;
+}
+
+
+
+
+<!-- Dev Note: Add the banner ad here -->
+
