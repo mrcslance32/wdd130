@@ -78,6 +78,7 @@ body {
             
     nav a:link, nav a:visited {
       color: var(--nav-link-color);
+      text-decoration: none;
     }
     
     nav a:hover {
@@ -122,11 +123,14 @@ body {
     
     .sociallinks {
         width: 300px;
+        text-decoration: none;
     }
     .sociallinks img {
         display: flex;
         width: 100%;
         height: auto;
+        text-decoration: none;
+       
         }
 
    
