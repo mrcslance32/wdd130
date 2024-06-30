@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kameron:wght@400..700&family=Orbitron:wght@400..900&display=');
-swap
+
 body {
-  font-family: var(--paragraph-font);
-  max-width: 960px;
-    padding: 20px;
-    
-}
-
-
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+      padding: 20px;
+      
+  }
   :root {
     --primary-color: #8ECAE6;
     --secondary-color: #194358;
@@ -23,30 +21,13 @@ body {
     --nav-hover-link-color:  #023047;
     --nav-hover-background-color:  #E46D20;
   }
-
-
-
-  .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-    }
-
-.sociallinks img {
-    display: block;
-    width: 25%;
-    height: auto;
-    }
-
-
-
-    body {
-        font-family: var(--paragraph-font);
-        max-width: 960px;
-        padding: 20px;
-        
-    }
-        
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+      padding: 20px;
+      
+  }
+  
     h1, h2, h3, h4, h5, h6 {
       font-family: var(--heading-font);
       color: var(--accent1-color);
@@ -65,18 +46,36 @@ body {
 
     
     nav {
-      background-color: var(--nav-background-color);
-      font-size: 1.2rem;
-      display: flex;
-    }
+        background-color: var(--nav-background-color);
+        font-size: 1.2rem;
+        display: flex;
+      }
     
-    nav a {
-      display: block;
-      color: var(--nav-link-color);
-      text-decoration: none;
-      padding: 1rem;
-    }
-    
+      nav a {
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+      }
+      nav a {
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+      }
+      nav a {
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+      }
+      nav a {
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+      }
+            
     nav a:link, nav a:visited {
       color: var(--nav-link-color);
     }
@@ -85,4 +84,49 @@ body {
       color: var(--nav-hover-link-color);
       background-color: var(--nav-hover-background-color);
     }
+
+    .hero {
+        position: relative;
+        
+    }
+  
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+        
+      }
+  
+  
+      .hero article img {
+         width: 28%;
+          float:right;
+        
+          
+      }
+  
+       article{
+         width: 90%;
+          position: absolute;
+          background: radial-gradient(#eee, #4567aa);
+          top: 100px;
+          left: 50px;
+       }
+  
+       h1 {
+        position: absolute;
+        background: radial-gradient(#eee, #dd7c0d);
+        top: 15px;
+        left: 350px
+       }
     
+    .sociallinks {
+        width: 300px;
+    }
+    .sociallinks img {
+        display: flex;
+        width: 100%;
+        height: auto;
+        }
+
+   

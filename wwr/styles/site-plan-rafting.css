@@ -7,7 +7,6 @@ body {
     
 }
 
-
   :root {
     --primary-color: #8ECAE6;
     --secondary-color: #194358;
@@ -26,12 +25,12 @@ body {
 
 
 
-    body {
-        font-family: var(--paragraph-font);
-        max-width: 960px;
-        padding: 20px;
-        
-    }
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+      padding: 20px;
+      
+  }
         
     h1, h2, h3, h4, h5, h6 {
       font-family: var(--heading-font);
