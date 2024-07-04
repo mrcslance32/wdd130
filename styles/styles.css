@@ -62,7 +62,9 @@ main img {
     border: 1px solid rgb(117, 10, 131);
     padding: 1px;
     box-shadow: 0 0 03px rgb(7, 6, 6);
+    position: relative;
     float: right;
+    top: 5px;
     
 }
 
