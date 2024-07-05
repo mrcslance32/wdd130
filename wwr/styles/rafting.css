@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kameron:wght@400..700&family=Orbitron:wght@400..900&display=');
 
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-      padding: 20px;
-      
-  }
+
   :root {
     --primary-color: #8ECAE6;
     --secondary-color: #194358;
@@ -28,16 +23,54 @@ body {
       
   }
   
+  header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 220px 2fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    padding: 25px;
+    background-color:var(--accent2-color) ;
+  }
+  
+  .logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+  }
+  
+  
+  
+  nav {
+    text-align: right;
+  }
+  
+  .navigation {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navigation li {
+    flex: 1 1 100%;
+  }
+  
+  .navigation a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .navigation a:hover {
+    font-weight: 700;
+    text-decoration: none;
+  }
     h1, h2, h3, h4, h5, h6 {
       font-family: var(--heading-font);
       color: var(--accent1-color);
     }
 
-    header {
-        padding: 20px;
-        background-color:var(--accent2-color) ;
 
-    }
 
     p {
         padding: 25px;
@@ -51,30 +84,7 @@ body {
         display: flex;
       }
     
-      nav a {
-        display: block;
-        color: var(--nav-link-color);
-        text-decoration: none;
-        padding: 1rem;
-      }
-      nav a {
-        display: block;
-        color: var(--nav-link-color);
-        text-decoration: none;
-        padding: 1rem;
-      }
-      nav a {
-        display: block;
-        color: var(--nav-link-color);
-        text-decoration: none;
-        padding: 1rem;
-      }
-      nav a {
-        display: block;
-        color: var(--nav-link-color);
-        text-decoration: none;
-        padding: 1rem;
-      }
+   
             
     nav a:link, nav a:visited {
       color: var(--nav-link-color);
@@ -84,6 +94,10 @@ body {
     nav a:hover {
       color: var(--nav-hover-link-color);
       background-color: var(--nav-hover-background-color);
+      border-width: 2px;
+    border: dashed;
+    padding: 2px;
+      
     }
 
     .hero {
