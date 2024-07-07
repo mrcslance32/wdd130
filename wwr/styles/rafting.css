@@ -68,7 +68,7 @@
     font-weight: 400;
     text-decoration: none;
   }
-     h3, h4, h5, h6 {
+     h2, h3, h4, h5, h6 {
       font-family: var(--heading-font);
       color: var(--accent1-color);
     }
@@ -162,6 +162,7 @@
         grid-column: 2 / 3;
         grid-row: 1;
         text-align: center;
+        color: #eeeeee;
         
 
       }
@@ -198,15 +199,13 @@
 
 .adventure{
   display: flex;
-  list-style: none;
+  
   gap: 5px;
-  
-  
-  
-  
 }
 
-
+.await {
+  text-align: center;
+}
       
  figure {
   border: thin #023047 solid;
