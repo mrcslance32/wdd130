@@ -26,17 +26,17 @@
   header {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 220px 2fr 2fr;
+    grid-template-columns: 320px 10fr 10fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
     padding: 25px;
-    background-color:var(--accent2-color) ;
+    background:radial-gradient(#194358,  #E46D20);
   }
   
   .logo img {
     margin: 0 0.25rem 0 1rem;
-    width: 64px;
+    width: 100px;
     height: auto;
   }
   
@@ -49,6 +49,9 @@
   .navigation {
     display: flex;
     list-style: none;
+    padding-right: 30px;
+    margin: 1px;
+
   }
   
   .navigation li {
@@ -62,10 +65,10 @@
   }
   
   .navigation a:hover {
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
   }
-    h1, h2, h3, h4, h5, h6 {
+     h3, h4, h5, h6 {
       font-family: var(--heading-font);
       color: var(--accent1-color);
     }
@@ -79,7 +82,7 @@
 
     
     nav {
-        background-color: var(--nav-background-color);
+        background: radial-gradient(#eeeeee, #408aaf);
         font-size: 1.2rem;
         display: flex;
       }
@@ -93,15 +96,18 @@
     
     nav a:hover {
       color: var(--nav-hover-link-color);
-      background-color: var(--nav-hover-background-color);
-      border-width: 2px;
+      background: radial-gradient(#8ecae6,  #E46D20);
+      border-width: 10px;
     border: dashed;
-    padding: 2px;
+    padding: 10px;
       
     }
 
+   
+
     .hero {
         position: relative;
+        margin: 1rem auto;
         
     }
   
@@ -117,34 +123,136 @@
          width: 28%;
           float:right;
         
+        
           
       }
   
        article{
          width: 90%;
           position: absolute;
-          background: radial-gradient(#eee, #4567aa);
+          background: radial-gradient(#8ecae6,  #E46D20);
           top: 100px;
           left: 50px;
        }
   
        h1 {
         position: absolute;
-        background: radial-gradient(#eee, #dd7c0d);
+        background: radial-gradient(#8ecae6,  #E46D20);
         top: 15px;
-        left: 350px
+        left: 350px;
+        font-family: var(--heading-font);
+        font-weight: 10;
+        padding: 5px;
        }
-    
-    .sociallinks {
-        width: 300px;
-        text-decoration: none;
-    }
-    .sociallinks img {
-        display: flex;
-        width: 100%;
-        height: auto;
-         text-decoration: none;
-       
-        }
+      
+       .history {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        grid-auto-rows: minmax(10x, auto);
+        gap: 25px;
+        background: radial-gradient( #02304783 ,  #023047);
+        color:  #f1f0f0;
+        margin: 1rem auto;
+        padding-bottom: 25px;
+        font-weight: 50px
+        ;
+      }
 
+      .history h2 {
+        grid-column: 2 / 3;
+        grid-row: 1;
+        text-align: center;
+        
+
+      }
+
+      .history p {
+        grid-column: 1/3;
+        grid-row: 2;
+        width: 200px;
+        padding-left: 40px;
+      }
+
+      .history img {
+
+        grid-column: 2/3;
+        grid-row: 2;
+        width: 400px;
+        padding-left: 60px;
+        
+      }
+      
+      .history p:nth-of-type(2) {
+        grid-column: 3/3;
+        grid-row: 2;
+        width: 200px;
+      }
+
+      h3 {
+        position: relative;
+        text-align: center;
+        right: 20px;
+        font-size: x-large;
+      }
+   
+
+.adventure{
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  
+  
+  
+  
+}
+
+
+      
+ figure {
+  border: thin #023047 solid;
+display: flex;
+flex-flow: column;
+padding: 5;
+width: 185px;
+height: 200;
+margin: auto;
+
+}
+
+figcaption {
+  background-color: #023047;
+  color: #e0ab88;
+  font-family: var(--paragraph-font);
+  padding: 3px;
+  text-align: center;
+}
+
+  .end {
+    background:radial-gradient(#194358,  #E46D20);
+    gap: 25px;
+    color: #eeeeee;
+    text-align: center;
+    
+  }  
+
+  .sociallinks {
+    display: flex;
+    float: right;
+   
+    position: relative;
+    top: 12px;
+    right: 100px;
+  }
+
+  .sociallinks img {
+    width: 30px;
+    padding: 5px;
+  }
+    
+
+
+
+
+
+        
    
