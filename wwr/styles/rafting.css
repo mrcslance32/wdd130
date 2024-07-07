@@ -148,14 +148,13 @@
        .history {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-        grid-auto-rows: minmax(10x, auto);
+        
         gap: 25px;
         background: radial-gradient( #02304783 ,  #023047);
         color:  #f1f0f0;
         margin: 1rem auto;
         padding-bottom: 25px;
-        font-weight: 50px
-        ;
+    
       }
 
       .history h2 {
@@ -211,9 +210,8 @@
   border: thin #023047 solid;
 display: flex;
 flex-flow: column;
-padding: 5;
+
 width: 185px;
-height: 200;
 margin: auto;
 
 }
