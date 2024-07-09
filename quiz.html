@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Marcus Lance | WDD 130 Quiz Form</title>
+        <meta name="description" content="Quiz Form Assignment">
+        <meta name="author" content="Marcus Lance">
+        <link rel="stylesheet" href="styles/quiz.css">   
+    </head>
+    
+    <body>
+        <header>
+            <h1>Week 05: Quiz Form</h1>
+        </header>
+    
+    <main>
+        <form>
+            <fieldset>
+                <legend>Pop Quiz!</legend>
+                <label for="first">What does CSS stand for?</label>
+                <input type="text" id="q1" name="q1">
+
+                <label for="second">How are id and class attributes selected in CSS?</label>
+                <textarea id="q2" name="q2" rows="4" placeholder="....."></textarea>
+                
+                <label for="third">Which of the below is a common font?</label>
+                <select id="q3" name="q3">
+                    <option value="Wakadoodle">Wakadoodle</option>
+                    <option value="times">Times New Roman</option>
+                    <option value="windows">Windows XP</option>
+                </select>
+
+                <label for="quantity">What is a higher resolution?</label>
+                    <p>360 720 1080</p>
+                <input type="number" id="quantity" name="quantity" min="360" max="1080" step="360">
+
+                   
+            </fieldset>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+        </main>
+    </body>
+</html>
+

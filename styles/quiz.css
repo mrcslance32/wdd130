@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Yatra+One&display=swap');
+
+/* font-family: 'Yatra One'; */
+/* font-family: 'Inconsolata'; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+  
+    
+    color: #a633e9;
+    background: #ddd4d4;
+    font-family: 'Inconsolata';
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Yatra One';
+  }
+  
+  form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    color: #070101;
+    background: #ffffff;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+  }
+
+  
+
+  p {
+    position: absolute;
+    background: #ddd4d4;
+    width: 100px;
+    right: 550px;
+    top: 325px;
+    color: black;
+  }
+
+  button {
+    
+    background-color: rgb(106, 28, 170);
+    color: #f1edf3;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    font-family: 'Yatra One';
+  }
+
