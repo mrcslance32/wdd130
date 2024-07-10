@@ -150,7 +150,7 @@
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
         
         gap: 25px;
-        background: radial-gradient( #02304783 ,  #023047);
+        background: #194358;
         color:  #f1f0f0;
         margin: 1rem auto;
         padding-bottom: 25px;
@@ -225,9 +225,9 @@ figcaption {
 }
 
   .end {
-    background:radial-gradient(#194358,  #E46D20);
+    background:#011538;
     gap: 25px;
-    color: #eeeeee;
+    color: #eba079;
     text-align: center;
     
   }  
