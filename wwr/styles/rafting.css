@@ -68,12 +68,16 @@
     font-weight: 400;
     text-decoration: none;
   }
-     h2, h3, h4, h5, h6 {
+      h3, h4, h5, h6 {
       font-family: var(--heading-font);
       color: var(--accent1-color);
     }
 
+h2 {
 
+  font-family: var(--heading-font);
+  color:#000000 ;
+}
 
     p {
         padding: 25px;
@@ -218,7 +222,7 @@ margin: auto;
 
 figcaption {
   background-color: #023047;
-  color: #e0ab88;
+  color: #ffffff;
   font-family: var(--paragraph-font);
   padding: 3px;
   text-align: center;
