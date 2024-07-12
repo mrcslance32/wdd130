@@ -211,6 +211,16 @@ h2 {
 
 }
 
+.contact h1 {
+float: none;
+width: 950px;
+height: 10px;
+top: 270px;
+left: 28px;
+color: #ffffff;
+background: #102e3d;
+
+}
 .contact ul {
   list-style:none;
   max-width: 1000px;
@@ -286,8 +296,8 @@ input[type="checkbox"] {
   width: 22px;
   height: 22px;
   position: absolute;
-  top: 950px;
-  left: 250px;
+  top: 900px;
+  left: 200px;
   }
 
 
