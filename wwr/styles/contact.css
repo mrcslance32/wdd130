@@ -68,7 +68,7 @@
     font-weight: 400;
     text-decoration: none;
   }
-      h3, h5, h6 {
+      h3, h4, h5, h6 {
       font-family: var(--heading-font);
       color: var(--accent1-color);
     }
@@ -198,114 +198,7 @@ h2 {
         right: 20px;
         font-size: x-large;
       }
-
-
-
-
-
-/* contact and map */
-
-.contact {
-  text-align: center;
-  
-
-}
-
-.contact ul {
-  list-style:none;
-  max-width: 1000px;
-  padding: 25px;
-  background:radial-gradient(#194358,  #E46D20);
-
-}
-
-.contact li {
-  display: inline-block;
-  margin-right: 10px;
- background-color: #023047;
-color: #eeeeee;
-      border-width: 10px;
    
-    padding: 10px;
-      
-}
-
-
-.map {
-  float: right;
-  position:relative;
-  top: 100px;
-}
-/* form */
-
-form {
-  width: 370px;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  display: grid;
-  
-}
-
-
-fieldset {
-  display: grid;
-  grid-gap: .5rem;
-  margin: 1rem;
-  border: 30px solid rgba(0, 0, 0, 0.2);
-  padding: rem;
- color: #f1860a;
- background-color:#091c3f;
-  
-}
-
-
-
-legend {
-  
-  font-size: 1rem;
-  padding: 1px;
-  
-}
-
-
-label {
-  text-align: right;
-  padding-right: 5rem;
-}
-
-input, select, textarea {
-  padding: 0.5rem;
-  font-size: 1.5rem;
-}
-
-input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
-  position: absolute;
-  top: 950px;
-  left: 250px;
-  }
-
-
-  button {
-    margin: 1rem;
-    background-color: #194358;
-    color: #ffffff;
-    border: none;
-    border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.2rem;
-  }
-
-  button:hover {
-    background-color: aqua;
-    color: #E46D20;
-  }
-
-
-/* form */
-      
-
 
 .adventure{
   display: flex;
@@ -313,26 +206,9 @@ input[type="checkbox"] {
   gap: 5px;
 }
 
-/* crew */
 .await {
   text-align: center;
 }
-
-
-.meet {
-  text-align: center;
-}
-
-.crew {
-  display: flex;
-  gap: 5px;
-}
-
-
-
-
-/* crew */
-
       
  figure {
   border: thin #023047 solid;
@@ -376,10 +252,3 @@ figcaption {
     
   }
     
-
-
-
-
-
-        
-   
