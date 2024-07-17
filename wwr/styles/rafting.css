@@ -296,7 +296,7 @@ input[type="checkbox"] {
   width: 22px;
   height: 22px;
   position: absolute;
-  top: 890px;
+  top: 875px;
   left: 200px;
   }
 
@@ -391,9 +391,68 @@ figcaption {
   }
     
 
+/* trips start */
+
+.book-trip p {
+  text-align: center;
+  font-family: var(--paragraph-font)
+
+}
+
+/* trips end */
+
+/* package start */
 
 
 
+/* package end */
+
+
+/* table start */
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: top;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+
+
+/* table end */
 
         
    
