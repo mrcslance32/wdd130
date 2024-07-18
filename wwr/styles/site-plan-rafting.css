@@ -21,6 +21,8 @@ body {
     --nav-link-color: #194358;
     --nav-hover-link-color:  #023047;
     --nav-hover-background-color:  #E46D20;
+    --background-color:#091c3f;
+    background:radial-gradient(#194358,  #E46D20);
   }
 
 

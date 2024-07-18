@@ -403,18 +403,51 @@ figcaption {
 
 /* package start */
 
+.package-options h2{
+  text-align: center;
+  font-size: 2rem;
+  background:radial-gradient(#194358,  #E46D20);
+  color: white;
+}
+
+.package-pics figure {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  max-width: 600px;
+  gap: 50px;
+  
+}
+
+.package-pics img {
+  width: 400px;
+ 
+}
+
+.package-pics figcaption {
+  width: 500px;
+}
+
+.package-pics {
+  position: relative;
+  right: 325px;
+ padding-bottom: 20px;
+  
+}
+
 
 
 /* package end */
 
 
-/* table start */
+/* pricing table start */
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(140 140 140);
-  font-family: sans-serif;
+  border: 2px solid #023047;
+  font-family: var(--paragraph-font);
   font-size: 0.8rem;
   letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  
 }
 
 caption {
@@ -425,7 +458,7 @@ caption {
 
 thead,
 tfoot {
-  background-color: rgb(228 240 245);
+  background:radial-gradient(#194358,  #E46D20);
 }
 
 th,
@@ -436,10 +469,15 @@ td {
 
 td:last-of-type {
   text-align: center;
+  
+  
 }
 
 tbody > tr:nth-of-type(even) {
-  background-color: rgb(237 238 242);
+  background-color: #023047;;
+}
+tbody > tr:nth-of-type(odd) {
+  background-color: #ac5c27;
 }
 
 tfoot th {
@@ -454,5 +492,19 @@ tfoot td {
 
 /* table end */
 
+
+.spread caption {
+  color: #091c3f;
+  font-family: var(--heading-font);
+  font-size: 40px;
+}
         
-   
+/* booking form */
+.booking-form form{
+  position: relative;
+  bottom: 240px;
+  left: 460px;
+  
+
+}
+
