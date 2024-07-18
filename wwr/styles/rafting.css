@@ -79,22 +79,25 @@ h2 {
   color:#000000 ;
 }
 
-    p {
+    .hero p {
         padding: 25px;
-
+        color: white;
     }
 
     
     nav {
-        background: radial-gradient(#eeeeee, #408aaf);
+        background: #194358;
         font-size: 1.2rem;
         display: flex;
+        
+        border: solid;
+        border-color: white;
       }
     
    
             
     nav a:link, nav a:visited {
-      color: var(--nav-link-color);
+      color: white;
       text-decoration: none;
     }
     
@@ -134,7 +137,7 @@ h2 {
        article{
          width: 90%;
           position: absolute;
-          background: radial-gradient(#8ecae6,  #E46D20);
+          background: radial-gradient(#194358,  #E46D20);
           top: 100px;
           left: 50px;
        }
@@ -149,6 +152,18 @@ h2 {
         padding: 5px;
        }
       
+
+       .hero h1 {
+        position: absolute;
+        background: none;
+        top: 30px;
+        left: 350px;
+        font-family: var(--heading-font);
+        font-weight: 10;
+        padding: 5px;
+        color: white;
+       }
+
        .history {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -220,6 +235,7 @@ left: 28px;
 color: #ffffff;
 background: #102e3d;
 
+
 }
 .contact ul {
   list-style:none;
@@ -278,6 +294,7 @@ legend {
   
   font-size: 1rem;
   padding: 1px;
+  
   
 }
 
@@ -366,23 +383,24 @@ figcaption {
   text-align: center;
 }
 
-  .end {
-    background:#011538;
-    gap: 25px;
-    color: #eba079;
-    text-align: center;
-    
-  }  
+.end {
+  background:#011538;
+  gap: 25px;
+  color: #eba079;
+  text-align: center;
+  padding: 5px;
+  
+}  
 
-  .sociallinks {
-    display: flex;
-    float: right;
-   
-    position: relative;
-    top: 12px;
-    right: 50px;
-    
-  }
+.sociallinks {
+  display: flex;
+  float: right;
+ 
+  position: relative;
+  top: 12px;
+  right: 50px;
+  
+}
 
   .sociallinks img {
     width: 30px;
@@ -395,8 +413,9 @@ figcaption {
 
 .book-trip p {
   text-align: center;
-  font-family: var(--paragraph-font)
-
+  font-family: var(--paragraph-font);
+  position: relative;
+  bottom: 100px;
 }
 
 /* trips end */
@@ -492,6 +511,29 @@ tfoot td {
 
 /* table end */
 
+/* fun pics */
+.fun-time{
+  position: relative;
+  width: 517px;
+  bottom: 100px;
+  right: 50px;
+  display: flex;
+  width: 517px;
+  
+}
+
+.fun-time img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.fun-time figure {
+  width: 295px; /* adjust to container size as needed */
+  height: 295px;
+}
+
+/* pics end */
 
 .spread caption {
   color: #091c3f;
@@ -503,8 +545,34 @@ tfoot td {
 .booking-form form{
   position: relative;
   bottom: 240px;
-  left: 460px;
+  left: 480px;
   
 
 }
 
+.book-contact{
+  position: absolute;
+  top: 2175px;
+  right: 750px;
+  
+  background: radial-gradient(#194358,  #E46D20);
+  color: white;
+  width: 900px;
+  
+}
+
+.book-contact img {
+  float: right;
+}
+
+.book-contact p {
+  padding: 15px;
+  font-family: var(--paragraph-font);
+  font-size: 20px;
+
+}
+
+.book-trip {
+  font-family: var(--paragraph-font);
+  font-size: 25px;
+}
