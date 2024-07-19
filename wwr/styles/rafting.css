@@ -533,6 +533,9 @@ tfoot td {
   height: 295px;
 }
 
+.fun-time article {
+  background:radial-gradient( #E46D20,  #194358);
+}
 /* pics end */
 
 .spread caption {
@@ -551,13 +554,13 @@ tfoot td {
 }
 
 .book-contact{
-  position: absolute;
-  top: 2175px;
-  right: 750px;
-  
+ position: relative;
   background: radial-gradient(#194358,  #E46D20);
   color: white;
   width: 900px;
+  bottom: 100px;
+  padding-left: 50px;
+  padding-bottom:  22px;
   
 }
 
@@ -566,7 +569,7 @@ tfoot td {
 }
 
 .book-contact p {
-  padding: 15px;
+
   font-family: var(--paragraph-font);
   font-size: 20px;
 
@@ -575,4 +578,25 @@ tfoot td {
 .book-trip {
   font-family: var(--paragraph-font);
   font-size: 25px;
+}
+
+
+/* -------HOME----------- */
+
+/* head */
+
+.home-head img{
+  width: 100%;
+}
+
+.home-head h1 {
+  
+  top: 400px;
+  color: #ffffff;
+  font-size: 50px;
+  
+  background: #08141a8f;
+  
+  
+
 }
