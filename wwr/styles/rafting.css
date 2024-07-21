@@ -401,6 +401,16 @@ figcaption {
   
 }
 
+.wire-link a{
+  color: white;
+  text-decoration: none;
+}
+
+.wire-link a:visited{
+  color: white;
+  text-decoration: none;
+}
+
   .sociallinks img {
     width: 30px;
     padding: 5px;
