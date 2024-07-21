@@ -395,10 +395,9 @@ figcaption {
 .sociallinks {
   display: flex;
   float: right;
+ justify-content: right;
  
-  position: relative;
-  top: 12px;
-  right: 50px;
+ 
   
 }
 
@@ -407,7 +406,9 @@ figcaption {
     padding: 5px;
     
   }
-    
+  
+
+
 
 /* trips start */
 
@@ -673,12 +674,19 @@ color: white
 }
 
 .home-trip {
-  text-align: center;
-}
+  position: relative;
+  
+  font-family: var(--heading-font);
+  font-size: larger;
+  }
 
 .gif {
-  position: relative;
-  float: right;
+float: left;
   bottom: 410px;
-  right: 20px;
+left: 700px;
+  position: relative;
+}
+
+.end2 p{
+  text-align: left;
 }
