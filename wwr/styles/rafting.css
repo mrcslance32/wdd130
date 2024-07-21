@@ -678,6 +678,13 @@ color: white
   
 }
 
+.bottom-image p {
+  background:#011538;
+  color: white;
+ padding-left: 18px;
+  font-family: var(--paragraph-font);
+}
+
 .image-grid p{
   float: right;
   position: absolute;
